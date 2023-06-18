@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+
+
+<!--
+	Bayesian network in XMLBIF v0.3 (BayesNet Interchange Format)
+	Produced by JavaBayes (http://www.cs.cmu.edu/~javabayes/
+	Number of nodes:20
+	Output created Tue Apr 25 17:03:27 CEST 2023
+-->
+
+
+
+<BIF VERSION="0.3">
+<NETWORK>
+<NAME>InternalNetwork</NAME>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node0</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (15, 150)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node1</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (45, 30)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node2</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (165, 44)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node3</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (135, 164)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node4</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (255, 150)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node5</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (285, 30)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node6</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (375, 135)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node7</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (495, 149)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node8</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (615, 164)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node9</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (44, 270)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node10</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (735, 150)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node11</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (164, 284)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node12</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (855, 135)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node13</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (405, 15)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node14</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (975, 149)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node15</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (15, 390)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node16</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (1095, 164)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node17</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (525, 29)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node18</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (1215, 150)</PROPERTY>
+</VARIABLE>
+<!-- Variables -->
+<VARIABLE TYPE="nature">
+    <NAME>node19</NAME>
+    <OUTCOME>state0</OUTCOME>
+    <OUTCOME>state1</OUTCOME>
+    <OUTCOME>state2</OUTCOME>
+    <PROPERTY>position = (1335, 135)</PROPERTY>
+</VARIABLE>
+<!-- Probability Distributions -->
+ <DEFINITION>
+      <FOR>node0</FOR>
+      <GIVEN>node11</GIVEN>
+     <TABLE>0.0194 0.8837 0.0969 0.8204 0.0926 0.087 0.875 0.0771 0.0479 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node1</FOR>
+     <TABLE>0.0373 0.4444 0.5183 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node2</FOR>
+     <TABLE>0.5768 0.2474 0.1758 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node3</FOR>
+      <GIVEN>node18</GIVEN>
+     <TABLE>0.3421 0.0507 0.6072 0.1002 0.53 0.3698 0.1587 0.0511 0.7902 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node4</FOR>
+      <GIVEN>node5</GIVEN>
+     <TABLE>0.4045 0.4655 0.13 0.0545 0.2565 0.689 0.7155 0.0366 0.2479 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node5</FOR>
+     <TABLE>0.9328 0.0458 0.0214 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node6</FOR>
+      <GIVEN>node4</GIVEN>
+     <TABLE>0.6901 0.2644 0.0455 0.6169 0.0062 0.3769 0.037 0.0573 0.9057 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node7</FOR>
+      <GIVEN>node4</GIVEN>
+     <TABLE>0.4789 0.4651 0.056 0.7732 0.0702 0.1566 0.8149 0.1057 0.0794 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node8</FOR>
+      <GIVEN>node17</GIVEN>
+     <TABLE>0.4335 0.2011 0.3654 0.2269 0.3684 0.4047 0.5623 0.0692 0.3685 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node9</FOR>
+      <GIVEN>node3</GIVEN>
+      <GIVEN>node7</GIVEN>
+     <TABLE>0.5025 0.134 0.3635 0.0388 6.0E-4 0.9606 0.4109 0.1379 0.4512 0.7076 0.1704 0.122 0.5729 0.3862 0.0409 0.1386 0.5651 0.2963 0.0448 0.0147 0.9405 0.4078 0.2627 0.3295 0.1748 0.1907 0.6345 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node10</FOR>
+      <GIVEN>node8</GIVEN>
+     <TABLE>0.2362 0.561 0.2028 0.4421 0.4473 0.1106 0.2858 0.6765 0.0377 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node11</FOR>
+      <GIVEN>node13</GIVEN>
+      <GIVEN>node17</GIVEN>
+     <TABLE>0.0795 0.3279 0.5926 0.31 0.5184 0.1716 0.7463 0.1804 0.0733 0.1833 0.4843 0.3324 0.0343 0.1222 0.8435 0.5585 0.2865 0.155 0.4134 0.3371 0.2495 0.3067 0.3339 0.3594 0.2662 0.3235 0.4103 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node12</FOR>
+      <GIVEN>node8</GIVEN>
+     <TABLE>0.6037 0.1625 0.2338 0.0943 0.0515 0.8542 0.3661 0.6188 0.0151 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node13</FOR>
+     <TABLE>0.7287 0.0461 0.2252 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node14</FOR>
+      <GIVEN>node12</GIVEN>
+     <TABLE>0.0927 0.8964 0.0109 0.0315 0.6775 0.291 0.1639 0.0364 0.7997 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node15</FOR>
+      <GIVEN>node18</GIVEN>
+      <GIVEN>node16</GIVEN>
+      <GIVEN>node2</GIVEN>
+     <TABLE>0.607 0.1444 0.2486 0.2481 0.7253 0.0266 0.5649 0.3932 0.0419 0.1221 0.5606 0.3173 0.3521 0.2895 0.3584 0.6055 0.0148 0.3797 0.8872 0.0963 0.0165 0.3785 0.4705 0.151 0.1446 0.551 0.3044 0.2083 0.2554 0.5363 0.397 0.2175 0.3855 0.4856 0.3439 0.1705 0.148 0.1782 0.6738 0.254 0.0067 0.7393 0.1329 0.6917 0.1754 0.0139 0.044 0.9421 0.2926 0.58 0.1274 0.4917 0.0579 0.4504 0.3402 0.4852 0.1746 0.4598 0.5335 0.0067 0.0816 0.1035 0.8149 0.5376 0.073 0.3894 0.4992 0.0046 0.4962 0.5786 0.029 0.3924 0.131 0.0746 0.7944 0.1866 0.3064 0.507 0.1857 0.0427 0.7716 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node16</FOR>
+      <GIVEN>node1</GIVEN>
+     <TABLE>0.2491 0.3499 0.401 0.1205 0.0206 0.8589 0.0157 0.8459 0.1384 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node17</FOR>
+     <TABLE>0.1004 0.8697 0.0299 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node18</FOR>
+      <GIVEN>node17</GIVEN>
+     <TABLE>0.093 0.811 0.096 0.0114 0.8713 0.1173 0.0134 0.1808 0.8058 </TABLE>
+ </DEFINITION>
+ <DEFINITION>
+      <FOR>node19</FOR>
+      <GIVEN>node15</GIVEN>
+     <TABLE>0.0514 0.8405 0.1081 0.0746 0.5016 0.4238 0.0376 0.7378 0.2246 </TABLE>
+ </DEFINITION>
+</NETWORK>
+</BIF>
